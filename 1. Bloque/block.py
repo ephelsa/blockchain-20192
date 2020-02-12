@@ -51,6 +51,7 @@ class Block():
       'hash': self.hash, 
       'block': self.block, 
       'index': self.index, 
+      'difficulty' : len(self.difficulty),
       'found_date': self.found_date,
       'timestamp': self.timestamp }
 
